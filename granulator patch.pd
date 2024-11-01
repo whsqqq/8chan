@@ -1,4 +1,4 @@
-#N canvas -49 -1021 1375 583 12;
+#N canvas 0 38 1375 583 12;
 #X obj 386 135 soundfiler;
 #X floatatom 386 158 18 0 0 0 - - - 24;
 #X obj 471 15 array define grainArray;
@@ -67,7 +67,6 @@
 #X obj 2106 185 r ON;
 #X obj 25 328 s ON;
 #X obj 25 274 tgl 48 0 empty empty empty 17 7 0 10 #fce0c4 #000000 #000000 0 1;
-#X obj 343 11 vsl 7 211 0 127 0 0 empty empty empty 0 -9 0 10 #000000 #000000 #5a5a5a 0 1;
 #X text 25 238 Вкл/Выкл, f 10;
 #X text 659 56 Выбор семплов;
 #X text 659 162 Длина семлов в семплах);
@@ -80,7 +79,7 @@
 #X connect 3 0 8 0;
 #X connect 5 0 4 0;
 #X connect 6 0 7 0;
-#X connect 7 0 73 0;
+#X connect 7 0 72 0;
 #X connect 8 0 6 0;
 #X connect 9 0 10 0;
 #X connect 10 0 14 0;
@@ -123,4 +122,4 @@
 #X connect 59 0 0 0;
 #X connect 65 0 15 0;
 #X connect 67 0 66 0;
-#X connect 74 0 75 0;
+#X connect 73 0 74 0;
