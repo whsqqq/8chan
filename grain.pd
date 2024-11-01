@@ -1,4 +1,4 @@
-#N canvas 0 23 880 782 12;
+#N canvas 0 38 880 782 12;
 #X obj 82 462 line~;
 #X obj 80 503 tabread4~ grainArray;
 #X msg 81 418 \$1 \, \$2 \$3;
@@ -27,6 +27,7 @@
 #X obj 206 294 r grain_transpose;
 #X obj 206 354 t b f;
 #X obj 200 379 / 1;
+#X text 650 459 test;
 #X connect 0 0 1 0;
 #X connect 1 0 21 0;
 #X connect 2 0 0 0;
